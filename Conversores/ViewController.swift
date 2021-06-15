@@ -79,7 +79,7 @@ class ViewController: UIViewController {
         }
         view.endEditing(true)
         let result = Double (lbResult.text!)!
-        lbResult.text = String (format: "%.2f, result)
+        lbResult.text = String (format: "%.2f", result)
         
     }
 
